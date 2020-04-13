@@ -1,0 +1,14 @@
+{
+  "name": "司法考试",
+  "?name": "赛道名称",
+  "announcement": "announcement",
+  "?announcement": "公告所对应的文件夹，会按照字典序从大至小排列自动读取，建议命名方式为a.txt,b.txt，纯文本格式",
+  "detail": "detail.md",
+  "?detail": "任务详情对应的说明文件，markdown格式",
+  "join": "join.md",
+  "?join": "参赛方式对应的说明文件，markdown格式",
+  "timeline": "timeline.md",
+  "?timeline": "赛程安排的说明文件，markdown格式",
+  "reward": "reward.md",
+  "?reward": "奖项设置的说明文件，markdown格式"
+}
