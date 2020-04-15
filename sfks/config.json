@@ -3,7 +3,7 @@
   "?name": "赛道名称",
   "announcement": "announcement",
   "?announcement": "公告所对应的文件夹，json格式，utf8",
-  "detail": "detail.md",
+  "detail": "detail.htm",
   "?detail": "任务详情对应的说明文件，markdown格式，utf8",
   "join": "join.md",
   "?join": "参赛方式对应的说明文件，markdown格式，utf8",
