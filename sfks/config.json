@@ -5,11 +5,11 @@
   "?announcement": "公告所对应的文件夹，json格式，utf8",
   "detail": "detail.html",
   "?detail": "任务详情对应的说明文件，markdown格式，utf8",
-  "join": "join.md",
+  "join": "join.html",
   "?join": "参赛方式对应的说明文件，markdown格式，utf8",
-  "timeline": "timeline.md",
+  "timeline": "timeline.html",
   "?timeline": "赛程安排的说明文件，markdown格式，utf8",
-  "reward": "reward.md",
+  "reward": "reward.html",
   "?reward": "奖项设置的说明文件，markdown格式，utf8",
   "time_period": [
     {
