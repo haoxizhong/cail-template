@@ -2,4 +2,4 @@ import json
 import os
 
 if __name__ == "__main__":
-    os.system("git pull")
+    os.system("cd cail-template && git pull")
