@@ -1,0 +1,14 @@
+*~
+*.pyc
+.idea
+*.swp
+fail_list.txt
+tdata/
+local_config.py
+node_modules/
+no_content.txt
+result.txt
+npm-debug*
+**.DS_store
+temp
+reference
