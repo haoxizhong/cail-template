@@ -36,15 +36,15 @@
   "?time_period": "比赛阶段的说明，不要超过四个阶段",
   "prize_list": [
     {
-      "num": "一",
+      "number": "一",
       "money": "150,000"
     },
     {
-      "num": "二",
+      "number": "二",
       "money": "15,000"
     },
     {
-      "num": "四",
+      "number": "四",
       "money": "1,000"
     }
   ]
