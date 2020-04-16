@@ -4,13 +4,13 @@
   "announcement": "announcement",
   "?announcement": "公告所对应的文件夹，json格式，utf8",
   "detail": "detail.html",
-  "?detail": "任务详情对应的说明文件，markdown格式，utf8",
+  "?detail": "任务详情对应的说明文件，html格式，utf8",
   "join": "join.html",
-  "?join": "参赛方式对应的说明文件，markdown格式，utf8",
+  "?join": "参赛方式对应的说明文件，html格式，utf8",
   "timeline": "timeline.html",
-  "?timeline": "赛程安排的说明文件，markdown格式，utf8",
+  "?timeline": "赛程安排的说明文件，html格式，utf8",
   "reward": "reward.html",
-  "?reward": "奖项设置的说明文件，markdown格式，utf8",
+  "?reward": "奖项设置的说明文件，html格式，utf8",
   "time_period": [
     {
       "start_time": "2020.05.15",
