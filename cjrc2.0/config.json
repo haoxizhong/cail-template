@@ -1,0 +1,51 @@
+{
+  "name": "阅读理解",
+  "?name": "赛道名称",
+  "announcement": "announcement",
+  "?announcement": "公告所对应的文件夹，json格式，utf8",
+  "detail": "detail.html",
+  "?detail": "任务详情对应的说明文件，html格式，utf8",
+  "join": "join.html",
+  "?join": "参赛方式对应的说明文件，html格式，utf8",
+  "timeline": "timeline.html",
+  "?timeline": "赛程安排的说明文件，html格式，utf8",
+  "reward": "reward.html",
+  "?reward": "奖项设置的说明文件，html格式，utf8",
+  "time_period": [
+    {
+      "start_time": "2020.05.15",
+      "end_time": "2020.07.05",
+      "name": "初赛阶段"
+    },
+    {
+      "start_time": "2020.06.15",
+      "end_time": "2020.07.05",
+      "name": "复赛阶段"
+    },
+    {
+      "start_time": "2020.07.05",
+      "end_time": "2020.07.25",
+      "name": "封测阶段"
+    },
+    {
+      "start_time": "2020.07.25",
+      "end_time": "之后",
+      "name": "公布结果"
+    }
+  ],
+  "?time_period": "比赛阶段的说明，不要超过四个阶段",
+  "prize_list": [
+    {
+      "number": "一",
+      "money": "150,000"
+    },
+    {
+      "number": "二",
+      "money": "15,000"
+    },
+    {
+      "number": "四",
+      "money": "1,000"
+    }
+  ]
+}

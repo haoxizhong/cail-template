@@ -1,0 +1,12 @@
+<p class="orderline" order="1、">任务介绍</p>
+<p class="line">CAIL2019上我们提出了中文司法阅读理解任务，今年我们将提出升级版，不仅文书种类由民事、刑事扩展为民事、刑事、行政，问题类型也由单步预测扩展为多步推理，难度有所升级。</p>
+<p class="line">具体而言，对于给定问题，只通过单句文本很难得出正确回答，选手需要结合多句话通过推理得出答案。</p>
+<p class="line">我们允许选手使用去年的阅读理解数据集（CJRC）作为辅助数据集，同时允许选手使用任何外部资料作为知识来帮助模型，但是我们要求选手在预测过程中不能够进行联网的操作。</p>
+<p class="line">更多的详细信息以及下文提到的资源都可以参考<a href='https://github.com/china-ai-law-challenge/CAIL2020/tree/master/ydlj' target='_blank' class='url'>https://github.com/china-ai-law-challenge/CAIL2020/tree/master/ydlj</a>。</p>
+<p class="orderline" order="2、">数据介绍</p>
+<p class="line">本任务技术评测训练集包括两部分，一部分为去年的CJRC训练集，一部分为重新标注的3000个问答对，其中民事、刑事、行政各1000个问答对，均为需要多步推理的问题类型。验证集和测试集各3000个问答对，同样均为需要多步推理的问题类型。</p>
+<p class="orderline" order="3、">评价方式</p>
+<p class="line">本任务采用F1进行评估。</p>
+<p class="line">对于每个问题，需要结合案情描述内容，给出回答，回答为Span（内容的一个片段）、YES/NO、Unknown中的一种，并且给出答案依据，即所有参与推理的句子编号。评价包括两部分：1）Answer-F1，即预测答案会与标准答案作比较，计算F1；2）SupFact-F1，即预测句子编号序列会与标准句子编号序列作比较，计算F1。最终为这两部分F1的联合F1宏平均。</p>
+<p class="orderline" order="4、">基线系统</p>
+<p class="line">我们将提供一组基线模型，即BERT的阅读理解模型。</p>
