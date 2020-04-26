@@ -14,21 +14,21 @@
   "time_period": [
     {
       "start_time": "2020.05.15",
-      "end_time": "2020.07.05",
+      "end_time": "2020.05.31",
+      "name": "报名阶段"
+    },
+    {
+      "start_time": "2020.06.01",
+      "end_time": "2020.06.25",
       "name": "初赛阶段"
     },
     {
-      "start_time": "2020.06.15",
-      "end_time": "2020.07.05",
+      "start_time": "2020.06.26",
+      "end_time": "2020.07.20",
       "name": "复赛阶段"
     },
     {
-      "start_time": "2020.07.05",
-      "end_time": "2020.07.25",
-      "name": "封测阶段"
-    },
-    {
-      "start_time": "2020.07.25",
+      "start_time": "2020.07.20",
       "end_time": "之后",
       "name": "公布结果"
     }
