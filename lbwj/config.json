@@ -37,15 +37,15 @@
   "prize_list": [
     {
       "number": "一",
-      "money": "150,000"
-    },
-    {
-      "number": "二",
       "money": "15,000"
     },
     {
+      "number": "二",
+      "money": "7,500"
+    },
+    {
       "number": "四",
-      "money": "1,000"
+      "money": "2,500"
     }
   ]
 }
