@@ -1,0 +1,12 @@
+<p class="orderline" order="1、">任务介绍</p>
+<p class="line">裁判文书是人民法院公开审判活动、裁判理由、裁判依据和裁判结果的重要载体。司法摘要则是对裁判文书的内容进行压缩、归纳和总结，反映案件审理过程中的裁判过程、事实、理由和判决依据等。裁判文书司法摘要对我国法治建设具有现实意义与必要性。</p>
+<p class="line">具体来说，我们会提供裁判文书的原文，选手的任务是输出对应的司法摘要文本。</p>
+<p class="line">我们允许选手使用任何外部资料作为知识来帮助模型，但是我们要求选手在预测过程中不能够进行联网的操作，</p>
+<p class="line">更多的详细信息以及下文提到的资源都可以参考<a href='https://github.com/china-ai-law-challenge/CAIL2020/tree/master/sfzy' target='_blank' class='url'>https://github.com/china-ai-law-challenge/CAIL2020/tree/master/sfzy</a>。</p>
+<p class="orderline" order="2、">数据介绍</p>
+<p class="line">本任务技术评测使用的训练集、验证集、测试集来自由北京司法大数据院提供并标注的法院裁判文书，包含大约10000篇裁判文书以及对应的司法摘要，其中所涉及到的裁判文书均为民事一审判决书。</p>
+<p class="orderline" order="3、">评价方式</p>
+<p class="line">本任务采用ROUGE(Recall-Oriented Understudy for Gisting Evaluation)评价评价。</p>
+<p class="line">ROUGE指标将自动生成的摘要与参考摘要进行比较, 其中ROUGE-1衡量unigram匹配情况，ROUGE-2衡量bigram匹配，ROUGE-L记录最长的公共子序列。</p>
+<p class="orderline" order="4、">基线系统</p>
+<p class="line">我们将提供BERT摘要基准模型。</p>
