@@ -12,7 +12,7 @@
   "reward": "reward.html",
   "?reward": "奖项设置的说明文件，html格式，utf8",
   "time_period": [
-  {
+    {
       "start_time": "2020.05.15",
       "end_time": "2020.07.14",
       "name": "初赛阶段"
@@ -49,5 +49,8 @@
     }
   ],
   "model_size": 4294967296,
-  "?model_size": "能够提交的模型大小上限，单位为B"
+  "?model_size": "能够提交的模型大小上限，单位为B",
+  "stage_name": [
+  ],
+  "?stage_name": "评测每个阶段所对应的名称"
 }
