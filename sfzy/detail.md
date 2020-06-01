@@ -17,7 +17,7 @@
 
 本任务采用ROUGE(Recall-Oriented Understudy for Gisting Evaluation)评价评价。
 
-ROUGE指标将自动生成的摘要与参考摘要进行比较, 其中ROUGE-1衡量unigram匹配情况，ROUGE-2衡量bigram匹配，ROUGE-L记录最长的公共子序列。
+ROUGE指标将自动生成的摘要与参考摘要进行比较, 其中ROUGE-1衡量unigram匹配情况，ROUGE-2衡量bigram匹配，ROUGE-L记录最长的公共子序列。三者都只采用f-score，且总分的计算方式为：0.2*f-score(R1)+0.4*f-score(R2)+0.4*f-score(RL)
 
 **4. 基线系统**
 

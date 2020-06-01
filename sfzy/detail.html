@@ -7,6 +7,6 @@
 <p class="line">本任务技术评测使用的训练集、验证集、测试集来自由北京司法大数据院提供并标注的法院裁判文书，包含大约10000篇裁判文书以及对应的司法摘要，其中所涉及到的裁判文书均为民事一审判决书。</p>
 <p class="orderline" order="3、">评价方式</p>
 <p class="line">本任务采用ROUGE(Recall-Oriented Understudy for Gisting Evaluation)评价评价。</p>
-<p class="line">ROUGE指标将自动生成的摘要与参考摘要进行比较, 其中ROUGE-1衡量unigram匹配情况，ROUGE-2衡量bigram匹配，ROUGE-L记录最长的公共子序列。</p>
+<p class="line">ROUGE指标将自动生成的摘要与参考摘要进行比较, 其中ROUGE-1衡量unigram匹配情况，ROUGE-2衡量bigram匹配，ROUGE-L记录最长的公共子序列。三者都只采用f-score，且总分的计算方式为：0.2*f-score(R1)+0.4*f-score(R2)+0.4*f-score(RL)</p>
 <p class="orderline" order="4、">基线系统</p>
 <p class="line">我们将提供BERT摘要基准模型。</p>
