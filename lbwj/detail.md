@@ -6,7 +6,7 @@
 
 我们允许选手使用任何外部资料作为知识来帮助模型，但是我们要求选手在预测过程中不能够进行联网的操作。
 
-更多的详细信息以及下文提到的资源都可以参考https://github.com/china-ai-law-challenge/CAIL2020/tree/master/lbwj。
+更多的详细信息以及下文提到的资源都可以参考https://github.com/barara-energy/SMP-CAIL2020-Argmine。
 
 **2. 数据介绍**
 
