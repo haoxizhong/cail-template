@@ -64,5 +64,8 @@
   ],
   "?score_name": "评测端返回的在测试机上的准确率",
   "required_score": 0.750,
-  "?required_score": "进入第二阶段所需要的分数"
+  "?required_score": "进入第二阶段所需要的分数",
+  "env_list": {
+  },
+  "?env_list": "评测环境列表名称"
 }
