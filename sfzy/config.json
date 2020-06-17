@@ -72,6 +72,8 @@
   "required_score": 0.00,
   "?required_score": "进入第二阶段所需要的分数",
   "env_list": {
+    "tf1.14": "tf1.14",
+    "tf2.0": "pytorch"
   },
   "?env_list": "评测环境列表名称"
 }
