@@ -48,7 +48,7 @@
       "money": "5,000"
     }
   ],
-  "model_size": 4294967296,
+  "model_size": 8589934592,
   "?model_size": "能够提交的模型大小上限，单位为B",
   "stage_name": [
     "sfzy_small"
