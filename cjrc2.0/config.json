@@ -53,18 +53,33 @@
   "stage_name": [
   ],
   "?stage_name": "评测每个阶段所对应的名称",
+  "stage_name": [
+      "ydlj_small"
+  ],
+  "?stage_name": "评测每个阶段所对应的名称",
   "score_name": [
     [
-      "score"
+      "ans_em",
+      "ans_f1",
+      "sup_em",
+      "sup_f1",
+      "joint_em",
+      "joinr_f1"
     ],
     [
-      "分数"
+      "ans_em",
+      "ans_f1",
+      "sup_em",
+      "sup_f1",
+      "joint_em",
+      "joinr_f1"
     ]
   ],
   "?score_name": "评测端返回的分数中的各项值，其中第一个数组为字段名字，第二个数组为显示在排行榜上的分数，默认使用最后一个作为主分数",
-  "required_score": 0.00,
+  "required_score": 0.37,
   "?required_score": "进入第二阶段所需要的分数",
   "env_list": {
+    "python3": "tf1.14"
   },
   "?env_list": "评测环境列表名称"
 }
