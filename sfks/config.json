@@ -51,9 +51,15 @@
   "model_size": 8589934592,
   "?model_size": "能够提交的模型大小上限，单位为B",
   "stage_name": [
+    "sfks_small",
     "sfks_small"
   ],
   "?stage_name": "评测每个阶段所对应的名称",
+  "stage_show_name": [
+    "第一阶段",
+    "第二阶段"
+  ],
+  "?stage_show_name": "各个阶段展示的名称",
   "score_name": [
     [
       "type0",
@@ -67,7 +73,7 @@
     ]
   ],
   "?score_name": "评测端返回的分数中的各项值，其中第一个数组为字段名字，第二个数组为显示在排行榜上的分数，默认使用最后一个作为主分数",
-  "required_score": 0.00,
+  "required_score": 25.4,
   "?required_score": "进入第二阶段所需要的分数",
   "env_list": {
     "python3": "pytorch"

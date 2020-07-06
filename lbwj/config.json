@@ -54,6 +54,10 @@
     "Argmine_first"
   ],
   "?stage_name": "评测每个阶段所对应的名称",
+  "stage_show_name": [
+    "第一阶段"
+  ],
+  "?stage_show_name": "各个阶段展示的名称",
   "score_name": [
     [
       "acc"
