@@ -14,21 +14,21 @@
   "time_period": [
     {
       "start_time": "2020.05.15",
-      "end_time": "2020.07.14",
+      "end_time": "2020.08.31",
       "name": "初赛阶段"
     },
     {
-      "start_time": "2020.07.15",
-      "end_time": "2020.08.18",
+      "start_time": "2020.08.15",
+      "end_time": "2020.10.10",
       "name": "复赛阶段"
     },
     {
-      "start_time": "2020.08.19",
-      "end_time": "2020.09.15",
+      "start_time": "2020.10.11",
+      "end_time": "2020.11.12",
       "name": "封测阶段"
     },
     {
-      "start_time": "2020.09.15",
+      "start_time": "2020.11.13",
       "end_time": "之后",
       "name": "公布结果"
     }
@@ -51,13 +51,20 @@
   "model_size": 8589934592,
   "?model_size": "能够提交的模型大小上限，单位为B",
   "stage_name": [
+    "sfks_small",
     "sfks_small"
   ],
   "?stage_name": "评测每个阶段所对应的名称",
   "stage_show_name": [
-    "第一阶段"
+    "第一阶段",
+    "第二阶段"
   ],
   "?stage_show_name": "各个阶段展示的名称",
+  "stage_on": [
+    true,
+    true
+  ],
+  "?stage_on": "各个阶段是否开放评测",
   "score_name": [
     [
       "type0",

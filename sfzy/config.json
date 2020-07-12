@@ -58,6 +58,10 @@
     "第一阶段"
   ],
   "?stage_show_name": "各个阶段展示的名称",
+  "stage_on": [
+    true
+  ],
+  "?stage_on": "各个阶段是否开放评测",
   "score_name": [
     [
       "Rouge-1",
