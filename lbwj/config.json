@@ -51,11 +51,13 @@
   "model_size": 4294967296,
   "?model_size": "能够提交的模型大小上限，单位为B",
   "stage_name": [
-    "Argmine_first"
+    "Argmine_first",
+    "Argmine_second"
   ],
   "?stage_name": "评测每个阶段所对应的名称",
   "stage_show_name": [
-    "第一阶段"
+    "第一阶段",
+    "第二阶段"
   ],
   "?stage_show_name": "各个阶段展示的名称",
   "score_name": [
