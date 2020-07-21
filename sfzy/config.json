@@ -51,14 +51,17 @@
   "model_size": 8589934592,
   "?model_size": "能够提交的模型大小上限，单位为B",
   "stage_name": [
-    "sfzy_small"
+    "sfzy_small",
+    "sfzy_big"
   ],
   "?stage_name": "评测每个阶段所对应的名称",
   "stage_show_name": [
-    "第一阶段"
+    "第一阶段",
+    "第二阶段"
   ],
   "?stage_show_name": "各个阶段展示的名称",
   "stage_on": [
+    true,
     true
   ],
   "?stage_on": "各个阶段是否开放评测",
