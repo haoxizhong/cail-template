@@ -61,7 +61,7 @@
   ],
   "?stage_show_name": "各个阶段展示的名称",
   "stage_on": [
-    true,
+    false,
     true
   ],
   "?stage_on": "各个阶段是否开放评测",
