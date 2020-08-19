@@ -83,5 +83,7 @@
   "env_list": {
     "python3": "python3"
   },
-  "?env_list": "评测环境列表名称"
+  "?env_list": "评测环境列表名称",
+  "begin_select": true,
+  "?begin_select": "是否开始最后的模型选择阶段"
 }

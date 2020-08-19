@@ -80,5 +80,7 @@
     "tf1.14": "pytorch",
     "tf2": "tf2"
   },
-  "?env_list": "评测环境列表名称"
+  "?env_list": "评测环境列表名称",
+  "begin_select": true,
+  "?begin_select": "是否开始最后的模型选择阶段"
 }
