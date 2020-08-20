@@ -62,7 +62,7 @@
   "?stage_show_name": "各个阶段展示的名称",
   "stage_on": [
     false,
-    true
+    false
   ],
   "?stage_on": "各个阶段是否开放评测",
   "score_name": [
@@ -84,6 +84,6 @@
     "python3": "python3"
   },
   "?env_list": "评测环境列表名称",
-  "begin_select": false,
+  "begin_select": true,
   "?begin_select": "是否开始最后的模型选择阶段"
 }
